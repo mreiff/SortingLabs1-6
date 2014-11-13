@@ -12,6 +12,13 @@ public class Song {
         return id + " Name: " + songName + " Author: " + authName + " Genre: " + genre;
     }
     
+    public Song(int id, String songName, String authName, String genre){
+        this.id = id;
+        this.songName = songName;
+        this.authName = authName;
+        this.genre = genre;
+    }
+    
     private int generateId(int id){
         return id;
     }
