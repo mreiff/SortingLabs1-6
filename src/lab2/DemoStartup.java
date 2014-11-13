@@ -38,14 +38,14 @@ public class DemoStartup {
         System.out.println("End of list tests for testing purposes!");
         System.out.println("---------------------------------------");
         System.out.println("STARTING LAB2 SPECIFICATIONS NOW.......");
-        Map<String,Song> songs = new HashMap<>();
-        songs.put("1", song1);
-        songs.put("2", song2);
-        songs.put("3", song3);
-        songs.put("4", song4);
-        songs.put("5", song5);
+        Map<Integer,Song> songs = new HashMap<>();
+        songs.put(1, song1);
+        songs.put(2, song2);
+        songs.put(3, song3);
+        songs.put(4, song4);
+        songs.put(5, song5);
         
-        for(int p = 0; p < songs.size(); p++){
+        for(int p = 1; p <= songs.size(); p++){
             System.out.println(songs.get(p));
         }
     }
