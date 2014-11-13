@@ -3,7 +3,7 @@ package lab2;
 import java.util.Objects;
 
 public class Song {
-    private int id;
+    private String id;
     private String songName;
     private String authName;
     private String genre;
@@ -12,14 +12,14 @@ public class Song {
         return id + " Name: " + songName + " Author: " + authName + " Genre: " + genre;
     }
     
-    public Song(int id, String songName, String authName, String genre){
+    public Song(String id, String songName, String authName, String genre){
         this.id = id;
         this.songName = songName;
         this.authName = authName;
         this.genre = genre;
     }
     
-    private int generateId(int id){
+    private String generateId(String id){
         return id;
     }
     
@@ -35,11 +35,11 @@ public class Song {
         return genre;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
