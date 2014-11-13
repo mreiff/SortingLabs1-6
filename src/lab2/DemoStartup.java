@@ -44,5 +44,9 @@ public class DemoStartup {
         songs.put("3", song3);
         songs.put("4", song4);
         songs.put("5", song5);
+        
+        for(int p = 0; p < songs.size(); p++){
+            System.out.println(songs.get(p));
+        }
     }
 }
