@@ -5,8 +5,7 @@
  */
 package lab2;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  *
@@ -36,5 +35,14 @@ public class DemoStartup {
         }else{
             System.out.println("This test Failed!");
         }
+        System.out.println("End of list tests for testing purposes!");
+        System.out.println("---------------------------------------");
+        System.out.println("STARTING LAB2 SPECIFICATIONS NOW.......");
+        Map<String,Song> songs = new HashMap<>();
+        songs.put("1", song1);
+        songs.put("2", song2);
+        songs.put("3", song3);
+        songs.put("4", song4);
+        songs.put("5", song5);
     }
 }
