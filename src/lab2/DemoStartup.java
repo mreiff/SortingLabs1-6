@@ -38,7 +38,7 @@ public class DemoStartup {
         System.out.println("End of list tests for testing purposes!");
         System.out.println("---------------------------------------");
         System.out.println("STARTING LAB2 SPECIFICATIONS NOW.......");
-        Map<Integer,Song> songs = new HashMap<>();
+        Map<Integer,Song> songs = new LinkedHashMap<>();
         songs.put(1, song1);
         songs.put(2, song2);
         songs.put(3, song3);
